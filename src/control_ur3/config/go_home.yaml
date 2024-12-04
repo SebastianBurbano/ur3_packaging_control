@@ -1,0 +1,17 @@
+publisher_scaled_joint_trajectory_controller:
+  ros__parameters:
+
+    controller_name: "scaled_joint_trajectory_controller"
+    #wait_sec_between_publish: 
+
+    goal_names: ["pos1"]
+    pos1:
+      positions: [0.0, -1.57, 0.0, -1.57, 0.0, 0.0]
+
+    joints:
+      - shoulder_pan_joint
+      - shoulder_lift_joint
+      - elbow_joint
+      - wrist_1_joint
+      - wrist_2_joint
+      - wrist_3_joint
