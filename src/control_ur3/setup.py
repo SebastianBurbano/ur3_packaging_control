@@ -8,6 +8,7 @@ setup(
     name=package_name,
     version='0.0.0',
     packages=find_packages(exclude=['test']),
+    package_dir={'': ''},  # <---- ESTE ES IMPORTANTE
     data_files=[
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
@@ -25,14 +26,15 @@ setup(
     entry_points={
         'console_scripts': [
              'gui_control_ur3 = control_ur3.gui:main',
-             'monitor_position = control_ur3.seguimiento:main',
+             'gui_2_ur3 = control_ur3.gui_2:main',
              'jtc_client = control_ur3.empaque_4:main',
-             'go_home = control_ur3.go_home:main',
-             'iniciar = control_ur3.iniciar:main',
-             'gripper_node = control_ur3.gripper_control:main',
-             'captura_punto = control_ur3.captura_punto:main',
              'captura_varios = control_ur3.captura_varios:main',
-             'empaque_prueba = control_ur3.empaque_prueba:main'
+             'order_monitor = control_ur3.order_monitor:main',
+             'execute_trajectories = control_ur3.execute_trajectories:main',
+             'opcion_1 = control_ur3.execute_trajectories_opcion_1:main',
+             'definitivo = control_ur3.execute_trajectories_definitivo:main',
+             'control_movimiento = control_ur3.control_movimiento:main',
         ],
     },
 )
+

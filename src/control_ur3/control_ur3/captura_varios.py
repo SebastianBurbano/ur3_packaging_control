@@ -14,12 +14,18 @@ class JointStateCaptureNode(Node):
         self.current_sequence = self.declare_parameter('sequence_name', 'empaque_4').value
         self.clear_sequence = self.declare_parameter('clear_sequence', False).value
         self.gripper_action = self.declare_parameter('gripper_action', 'none').value
+        self.time_step = self.declare_parameter('time_step', 4.0).value
+        self.movement_type = self.declare_parameter('movement_type', 'moveJ').value
 
+        # Declarar parámetros para moveL
+        # (valor por defecto para que no falle si no se pasa nada desde la CLI)
+        self.num_steps = self.declare_parameter('num_steps', 5).value
+        self.interp_p_time = self.declare_parameter('interp_p_time', 2.0).value
+        
         self.current_trajectory_key = None  # Esto se asignará dinámicamente
-        self.sequences = {'empaque_4': [], 'empaque_6': [], 'empaque_12': []}
+        self.sequences = {'pickup_point': {},'empaque_4': [], 'empaque_6': [], 'empaque_12': []}
 
         self.point_count = 0
-        self.time_increment = 4.0   # Tiempo fijo entre puntos
         self.captured = False  # Controla si ya se capturó un punto
 
         # Limpiar la secuencia si se solicita
@@ -74,14 +80,22 @@ class JointStateCaptureNode(Node):
         # Agregar el nuevo punto
         point = {
             'joint_names': list(msg.name),
+            'movement_type': self.movement_type,
             'position': list(msg.position),
             'velocity': list(msg.velocity),
             'timestamp': {
-                "sec": 5, # Tiempo relativo entre puntos
-                "nanosec": 0
+                "sec": int(self.time_step),  # Se usa el parámetro time_step
+                "nanosec": int((self.time_step - int(self.time_step)) * 1e9)  # Parte decimal a nanosegundos
             },
             'gripper_action': self.gripper_action,  # Agregar la acción del gripper
         }
+        
+         # Solo si es moveL, agregamos num_steps e interp_p_time (como "time_step" para interpolation)
+        if self.movement_type == "moveL":
+            point["num_steps"] = self.num_steps
+            # OJO: en 'control_movimiento.py' se usa "time_step" para la interpolación.
+            # Por eso aquí mapeamos interp_p_time -> time_step
+            point["time_step"] = self.interp_p_time
 
         # Agregar el punto a la nueva trayectoria
         current_sequence_data[self.current_trajectory_key] = [point]

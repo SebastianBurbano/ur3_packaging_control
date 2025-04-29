@@ -1,31 +1,6 @@
+Ejemplo: {}
 empaque_12:
   traj0:
-  - gripper_action: none
-    joint_names:
-    - shoulder_lift_joint
-    - elbow_joint
-    - wrist_1_joint
-    - wrist_2_joint
-    - wrist_3_joint
-    - shoulder_pan_joint
-    position:
-    - -1.5699999968158167
-    - 1.7763568394002505e-15
-    - -1.5699999968158167
-    - 1.7763568394002505e-15
-    - 0.0
-    - 0.0
-    timestamp:
-      nanosec: 0
-      sec: 5
-    velocity:
-    - 0.0
-    - 0.0
-    - 0.0
-    - 0.0
-    - 0.0
-    - 0.0
-  traj1:
   - gripper_action: open
     joint_names:
     - shoulder_lift_joint
@@ -35,25 +10,25 @@ empaque_12:
     - wrist_3_joint
     - shoulder_pan_joint
     position:
-    - -1.133700195943014
-    - 0.7473000288009644
-    - -1.1919000784503382
-    - -1.5670002142535608
-    - -2.7344000975238245
-    - -0.3504999319659632
+    - -1.665494743977682
+    - 2.0051774978637695
+    - -1.9502785841571253
+    - -1.6023805777179163
+    - -0.8527033964740198
+    - 1.6356052160263062
     timestamp:
       nanosec: 0
-      sec: 5
+      sec: 3
     velocity:
-    - 2.6234589045430468e-14
-    - 1.6873812163679881e-15
-    - -3.222051286191972e-15
-    - -1.1614976558674273e-13
-    - -2.0133486620509816e-13
-    - -7.493608898921373e-16
-empaque_6:
+    - 0.0
+    - -0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+empaque_2:
   traj0:
-  - gripper_action: none
+  - gripper_action: open
     joint_names:
     - shoulder_lift_joint
     - elbow_joint
@@ -62,15 +37,43 @@ empaque_6:
     - wrist_3_joint
     - shoulder_pan_joint
     position:
-    - -1.5700309912311
-    - -8.374849428349762e-05
-    - -1.5700047651873987
-    - -2.366701234990387e-05
-    - 4.793690095539205e-05
-    - -2.366701234990387e-05
+    - -1.1374858061419886
+    - 1.251431941986084
+    - -1.6473329702960413
+    - -1.5288785139666956
+    - -2.7181602160083216
+    - 0.4156571328639984
     timestamp:
       nanosec: 0
       sec: 5
+    velocity:
+    - 0.0
+    - -0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+empaque_4:
+  traj0:
+  - gripper_action: open
+    joint_names:
+    - shoulder_lift_joint
+    - elbow_joint
+    - wrist_1_joint
+    - wrist_2_joint
+    - wrist_3_joint
+    - shoulder_pan_joint
+    movement_type: moveJ
+    position:
+    - -1.7774856726275843
+    - 1.3783512115478516
+    - -1.1703131834613245
+    - -1.5944016615497034
+    - -2.567554537449972
+    - 0.6596716642379761
+    timestamp:
+      nanosec: 0
+      sec: 2
     velocity:
     - 0.0
     - -0.0
@@ -87,16 +90,995 @@ empaque_6:
     - wrist_2_joint
     - wrist_3_joint
     - shoulder_pan_joint
+    movement_type: moveL
     position:
-    - -1.1337903181659144
-    - 0.7473549842834473
-    - -1.1918566862689417
-    - -1.5669782797442835
-    - -2.734401528035299
-    - -0.3504565397845667
+    - -1.8467653433429163
+    - 1.9086833000183105
+    - -1.6315677801715296
+    - -1.594353977833883
+    - -2.567554537449972
+    - 0.6596956253051758
+    timestamp:
+      nanosec: 0
+      sec: 2
+    velocity:
+    - 0.0
+    - -0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  traj2:
+  - gripper_action: open
+    joint_names:
+    - shoulder_lift_joint
+    - elbow_joint
+    - wrist_1_joint
+    - wrist_2_joint
+    - wrist_3_joint
+    - shoulder_pan_joint
+    movement_type: moveJ
+    position:
+    - -1.8285921255694788
+    - 1.413553237915039
+    - -1.1513116995440882
+    - -1.5940068403827112
+    - -2.4275181929217737
+    - 0.7995938658714294
+    timestamp:
+      nanosec: 0
+      sec: 2
+    velocity:
+    - 0.0
+    - -0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  traj3:
+  - gripper_action: open
+    joint_names:
+    - shoulder_lift_joint
+    - elbow_joint
+    - wrist_1_joint
+    - wrist_2_joint
+    - wrist_3_joint
+    - shoulder_pan_joint
+    movement_type: moveL
+    position:
+    - -1.9055450598346155
+    - 1.9448347091674805
+    - -1.6055639425860804
+    - -1.593994442616598
+    - -2.427542034779684
+    - 0.7996058464050293
+    timestamp:
+      nanosec: 0
+      sec: 2
+    velocity:
+    - 0.0
+    - -0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  traj4:
+  - gripper_action: open
+    joint_names:
+    - shoulder_lift_joint
+    - elbow_joint
+    - wrist_1_joint
+    - wrist_2_joint
+    - wrist_3_joint
+    - shoulder_pan_joint
+    movement_type: moveJ
+    position:
+    - -1.588677708302633
+    - 1.2151999473571777
+    - -1.1929953734027308
+    - -1.593886677418844
+    - -2.4276259581195276
+    - 0.7994377017021179
+    timestamp:
+      nanosec: 0
+      sec: 2
+    velocity:
+    - 0.0
+    - -0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  traj5:
+  - gripper_action: open
+    joint_names:
+    - shoulder_lift_joint
+    - elbow_joint
+    - wrist_1_joint
+    - wrist_2_joint
+    - wrist_3_joint
+    - shoulder_pan_joint
+    movement_type: moveL
+    position:
+    - -1.6445139090167444
+    - 1.745018482208252
+    - -1.6668031851397913
+    - -1.593874756489889
+    - -2.4276259581195276
+    - 0.7995100021362305
+    timestamp:
+      nanosec: 0
+      sec: 2
+    velocity:
+    - 0.0
+    - -0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  traj6:
+  - gripper_action: open
+    joint_names:
+    - shoulder_lift_joint
+    - elbow_joint
+    - wrist_1_joint
+    - wrist_2_joint
+    - wrist_3_joint
+    - shoulder_pan_joint
+    movement_type: moveJ
+    position:
+    - -1.6381261984454554
+    - 1.259526252746582
+    - -1.1847832838641565
+    - -1.5931556860553187
+    - -2.305103365574972
+    - 0.922052800655365
+    timestamp:
+      nanosec: 0
+      sec: 2
+    velocity:
+    - 0.0
+    - -0.0
+    - 2.3968450477696024e-05
+    - 0.0
+    - 0.0
+    - 0.0
+  traj7:
+  - gripper_action: open
+    joint_names:
+    - shoulder_lift_joint
+    - elbow_joint
+    - wrist_1_joint
+    - wrist_2_joint
+    - wrist_3_joint
+    - shoulder_pan_joint
+    movement_type: moveL
+    position:
+    - -1.696655575429098
+    - 1.7903881072998047
+    - -1.6573203245746058
+    - -1.593191925679342
+    - -2.3051393667804163
+    - 0.9220408201217651
+    timestamp:
+      nanosec: 0
+      sec: 2
+    velocity:
+    - 0.0
+    - -0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+empaque_6:
+  traj0:
+  - gripper_action: open
+    joint_names:
+    - shoulder_lift_joint
+    - elbow_joint
+    - wrist_1_joint
+    - wrist_2_joint
+    - wrist_3_joint
+    - shoulder_pan_joint
+    position:
+    - -1.7475903669940394
+    - 2.0782275199890137
+    - -1.9517772833453577
+    - -1.5637548605548304
+    - -1.6629498640643519
+    - 0.8244547843933105
+    timestamp:
+      nanosec: 0
+      sec: 3
+    velocity:
+    - 0.0
+    - -0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+interpolacion:
+  traj0:
+  - gripper_action: open
+    joint_names:
+    - shoulder_lift_joint
+    - elbow_joint
+    - wrist_1_joint
+    - wrist_2_joint
+    - wrist_3_joint
+    - shoulder_pan_joint
+    position:
+    - -1.7842567602740687
+    - 2.347989797592163
+    - -2.132791344319479
+    - -1.5829122702227991
+    - -3.3030672709094446
+    - 0.6419751048088074
+  traj1:
+  - gripper_action: open
+    joint_names:
+    - shoulder_lift_joint
+    - elbow_joint
+    - wrist_1_joint
+    - wrist_2_joint
+    - wrist_3_joint
+    - shoulder_pan_joint
+    position:
+    - -1.8132789770709437
+    - 2.3132550716400146
+    - -2.0689170996295374
+    - -1.5828641096698206
+    - -3.3030553499804896
+    - 0.6419751048088074
+  traj2:
+  - gripper_action: open
+    joint_names:
+    - shoulder_lift_joint
+    - elbow_joint
+    - wrist_1_joint
+    - wrist_2_joint
+    - wrist_3_joint
+    - shoulder_pan_joint
+    position:
+    - -1.838067356740133
+    - 2.2774782180786133
+    - -2.008219544087545
+    - -1.5828765074359339
+    - -3.3030553499804896
+    - 0.6419507265090942
+  traj3:
+  - gripper_action: open
+    joint_names:
+    - shoulder_lift_joint
+    - elbow_joint
+    - wrist_1_joint
+    - wrist_2_joint
+    - wrist_3_joint
+    - shoulder_pan_joint
+    position:
+    - -1.8592074553119105
+    - 2.240565299987793
+    - -1.9503024260150355
+    - -1.5828765074359339
+    - -3.3030672709094446
+    - 0.6419507265090942
+  traj4:
+  - gripper_action: open
+    joint_names:
+    - shoulder_lift_joint
+    - elbow_joint
+    - wrist_1_joint
+    - wrist_2_joint
+    - wrist_3_joint
+    - shoulder_pan_joint
+    position:
+    - -1.877033535634176
+    - 2.202024459838867
+    - -1.893979851399557
+    - -1.5828641096698206
+    - -3.303091351185934
+    - 0.6419507265090942
+  traj5:
+  - gripper_action: open
+    joint_names:
+    - shoulder_lift_joint
+    - elbow_joint
+    - wrist_1_joint
+    - wrist_2_joint
+    - wrist_3_joint
+    - shoulder_pan_joint
+    position:
+    - -1.8917501608477991
+    - 2.1623106002807617
+    - -1.8396948019610804
+    - -1.5828641096698206
+    - -3.303091351185934
+    - 0.6419507265090942
+  traj6:
+  - gripper_action: open
+    joint_names:
+    - shoulder_lift_joint
+    - elbow_joint
+    - wrist_1_joint
+    - wrist_2_joint
+    - wrist_3_joint
+    - shoulder_pan_joint
+    position:
+    - -1.903498951588766
+    - 2.121088981628418
+    - -1.786487881337301
+    - -1.5828641096698206
+    - -3.3030791918383997
+    - 0.6419387459754944
+  traj7:
+  - gripper_action: open
+    joint_names:
+    - shoulder_lift_joint
+    - elbow_joint
+    - wrist_1_joint
+    - wrist_2_joint
+    - wrist_3_joint
+    - shoulder_pan_joint
+    position:
+    - -1.9126160780536097
+    - 2.0791616439819336
+    - -1.735619846974508
+    - -1.5828765074359339
+    - -3.303091351185934
+    - 0.6419631242752075
+  traj8:
+  - gripper_action: open
+    joint_names:
+    - shoulder_lift_joint
+    - elbow_joint
+    - wrist_1_joint
+    - wrist_2_joint
+    - wrist_3_joint
+    - shoulder_pan_joint
+    position:
+    - -1.9191606680499476
+    - 2.035618782043457
+    - -1.685458008443014
+    - -1.5828402678119105
+    - -3.303127113972799
+    - 0.6419267654418945
+  traj9:
+  - gripper_action: open
+    joint_names:
+    - shoulder_lift_joint
+    - elbow_joint
+    - wrist_1_joint
+    - wrist_2_joint
+    - wrist_3_joint
+    - shoulder_pan_joint
+    position:
+    - -1.9232285658465784
+    - 1.9911065101623535
+    - -1.6366871039019983
+    - -1.582888428364889
+    - -3.303103272114889
+    - 0.6419631242752075
+pickup_point:
+  traj0:
+  - gripper_action: none
+    joint_names:
+    - shoulder_lift_joint
+    - elbow_joint
+    - wrist_1_joint
+    - wrist_2_joint
+    - wrist_3_joint
+    - shoulder_pan_joint
+    position:
+    - -0.8419116179095667
+    - -0.0012696425067346695
+    - -0.7070811430560511
+    - -1.5256794134723108
+    - -2.7264485994922083
+    - -0.3830454985248011
+    timestamp:
+      nanosec: 0
+      sec: 3
+    velocity:
+    - 0.0
+    - -0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  traj1:
+  - gripper_action: open
+    joint_names:
+    - shoulder_lift_joint
+    - elbow_joint
+    - wrist_1_joint
+    - wrist_2_joint
+    - wrist_3_joint
+    - shoulder_pan_joint
+    movement_type: moveL
+    num_steps: 2
+    position:
+    - -1.141959015523092
+    - 0.8179864883422852
+    - -1.2262871901141565
+    - -1.525583569203512
+    - -2.7265079657184046
+    - -0.38311750093568975
+    time_step: 0.8
+    timestamp:
+      nanosec: 0
+      sec: 2
+    velocity:
+    - 0.0
+    - -0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  traj2:
+  - gripper_action: close
+    joint_names:
+    - shoulder_lift_joint
+    - elbow_joint
+    - wrist_1_joint
+    - wrist_2_joint
+    - wrist_3_joint
+    - shoulder_pan_joint
+    position:
+    - -1.119162384663717
+    - 0.7278223037719727
+    - -1.1590202490436
+    - -1.5256074110614222
+    - -2.726543966923849
+    - -0.3830936590777796
+    timestamp:
+      nanosec: 0
+      sec: 2
+    velocity:
+    - 0.0
+    - -0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  traj3:
+  - gripper_action: none
+    joint_names:
+    - shoulder_lift_joint
+    - elbow_joint
+    - wrist_1_joint
+    - wrist_2_joint
+    - wrist_3_joint
+    - shoulder_pan_joint
+    position:
+    - -1.0989373365985315
+    - 0.7122650146484375
+    - -1.160842243825094
+    - -1.5269377867328089
+    - -2.786959950123922
+    - -0.4435337225543421
+    timestamp:
+      nanosec: 0
+      sec: 2
+    velocity:
+    - 0.0
+    - -0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  traj4:
+  - gripper_action: open
+    joint_names:
+    - shoulder_lift_joint
+    - elbow_joint
+    - wrist_1_joint
+    - wrist_2_joint
+    - wrist_3_joint
+    - shoulder_pan_joint
+    position:
+    - -1.0948947111712855
+    - 0.643186092376709
+    - -1.0984910170184534
+    - -1.5256193319903772
+    - -2.7265201250659388
+    - -0.3830936590777796
+    timestamp:
+      nanosec: 0
+      sec: 2
+    velocity:
+    - 0.0
+    - -0.0
+    - 7.190534961409867e-05
+    - 0.0
+    - 0.0
+    - 0.0
+  traj5:
+  - gripper_action: close
+    joint_names:
+    - shoulder_lift_joint
+    - elbow_joint
+    - wrist_1_joint
+    - wrist_2_joint
+    - wrist_3_joint
+    - shoulder_pan_joint
+    position:
+    - -1.1343167463885706
+    - 0.8391709327697754
+    - -1.2542203108416956
+    - -1.526027027760641
+    - -2.74858266512026
+    - -0.3816793600665491
+    timestamp:
+      nanosec: 0
+      sec: 2
+    velocity:
+    - 0.0
+    - -0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  traj6:
+  - gripper_action: none
+    joint_names:
+    - shoulder_lift_joint
+    - elbow_joint
+    - wrist_1_joint
+    - wrist_2_joint
+    - wrist_3_joint
+    - shoulder_pan_joint
+    movement_type: moveL
+    num_steps: 2
+    position:
+    - -0.8698433081256312
+    - 0.05768299102783203
+    - -0.7381637732135218
+    - -1.5256312529193323
+    - -2.726412598286764
+    - -0.3830454985248011
+    time_step: 0.8
+    timestamp:
+      nanosec: 0
+      sec: 2
+    velocity:
+    - 0.0
+    - -0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+pickup_point3:
+  traj0:
+  - gripper_action: none
+    joint_names:
+    - shoulder_lift_joint
+    - elbow_joint
+    - wrist_1_joint
+    - wrist_2_joint
+    - wrist_3_joint
+    - shoulder_pan_joint
+    movement_type: moveJ
+    position:
+    - -0.8190143744098108
+    - -0.0029709974872034195
+    - -0.7221487204181116
+    - -1.5671218077289026
+    - -2.6983147303210657
+    - -0.3528178373919886
+    timestamp:
+      nanosec: 0
+      sec: 3
+    velocity:
+    - 0.0
+    - -0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  traj1:
+  - gripper_action: open
+    joint_names:
+    - shoulder_lift_joint
+    - elbow_joint
+    - wrist_1_joint
+    - wrist_2_joint
+    - wrist_3_joint
+    - shoulder_pan_joint
+    movement_type: moveL
+    position:
+    - -1.1210883299456995
+    - 0.856043815612793
+    - -1.2790730635272425
+    - -1.5670979658709925
+    - -2.6983268896686
+    - -0.35288983980287725
+    timestamp:
+      nanosec: 0
+      sec: 3
+    velocity:
+    - 0.0
+    - -0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  traj2:
+  - gripper_action: close
+    joint_names:
+    - shoulder_lift_joint
+    - elbow_joint
+    - wrist_1_joint
+    - wrist_2_joint
+    - wrist_3_joint
+    - shoulder_pan_joint
+    movement_type: moveJ
+    position:
+    - -0.49522143999208623
+    - -0.602431599293844
+    - -0.4464333693133753
+    - -1.5670860449420374
+    - -2.6982668081866663
+    - -0.3527939955340784
+    timestamp:
+      nanosec: 0
+      sec: 3
+    velocity:
+    - 0.0
+    - -0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  traj3:
+  - gripper_action: none
+    joint_names:
+    - shoulder_lift_joint
+    - elbow_joint
+    - wrist_1_joint
+    - wrist_2_joint
+    - wrist_3_joint
+    - shoulder_pan_joint
+    movement_type: moveJ
+    position:
+    - -0.4652302900897425
+    - -0.6380274931537073
+    - -0.4406684080706995
+    - -1.5683320204364222
+    - -2.74858266512026
+    - -0.40307313600649053
+    timestamp:
+      nanosec: 0
+      sec: 3
+    velocity:
+    - 0.0
+    - -0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  traj4:
+  - gripper_action: open
+    joint_names:
+    - shoulder_lift_joint
+    - elbow_joint
+    - wrist_1_joint
+    - wrist_2_joint
+    - wrist_3_joint
+    - shoulder_pan_joint
+    movement_type: moveJ
+    position:
+    - -0.49522143999208623
+    - -0.602431599293844
+    - -0.4464333693133753
+    - -1.5670860449420374
+    - -2.6982668081866663
+    - -0.3527939955340784
+    timestamp:
+      nanosec: 0
+      sec: 3
+    velocity:
+    - 0.0
+    - -0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  traj5:
+  - gripper_action: close
+    joint_names:
+    - shoulder_lift_joint
+    - elbow_joint
+    - wrist_1_joint
+    - wrist_2_joint
+    - wrist_3_joint
+    - shoulder_pan_joint
+    movement_type: moveJ
+    position:
+    - -1.1210883299456995
+    - 0.856043815612793
+    - -1.2790730635272425
+    - -1.5670979658709925
+    - -2.6983268896686
+    - -0.35288983980287725
+    timestamp:
+      nanosec: 0
+      sec: 3
+    velocity:
+    - 0.0
+    - -0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  traj6:
+  - gripper_action: none
+    joint_names:
+    - shoulder_lift_joint
+    - elbow_joint
+    - wrist_1_joint
+    - wrist_2_joint
+    - wrist_3_joint
+    - shoulder_pan_joint
+    movement_type: moveL
+    position:
+    - -0.8190143744098108
+    - -0.0029709974872034195
+    - -0.7221487204181116
+    - -1.5671218077289026
+    - -2.6983147303210657
+    - -0.3528178373919886
+    timestamp:
+      nanosec: 0
+      sec: 3
+    velocity:
+    - 0.0
+    - -0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+start_point_pallet_2:
+  traj0:
+  - gripper_action: none
+    joint_names:
+    - shoulder_lift_joint
+    - elbow_joint
+    - wrist_1_joint
+    - wrist_2_joint
+    - wrist_3_joint
+    - shoulder_pan_joint
+    movement_type: moveJ
+    position:
+    - -1.6381261984454554
+    - 1.259526014328003
+    - -1.1847828070269983
+    - -1.5931561628924769
+    - -2.3051028887378138
+    - 0.9220529794692993
     timestamp:
       nanosec: 0
       sec: 5
+    velocity:
+    - -5.6164793004126815e-14
+    - -3.389343384944954e-14
+    - -2.205864800579804e-15
+    - -2.963055927734156e-15
+    - 2.0851023815535163e-14
+    - 5.443414036849451e-15
+  traj1:
+  - gripper_action: none
+    joint_names:
+    - shoulder_lift_joint
+    - elbow_joint
+    - wrist_1_joint
+    - wrist_2_joint
+    - wrist_3_joint
+    - shoulder_pan_joint
+    movement_type: moveL
+    position:
+    - -1.6381261984454554
+    - 1.259526014328003
+    - -1.1847828070269983
+    - -1.5931561628924769
+    - -2.3051028887378138
+    - 0.9220529794692993
+    timestamp:
+      nanosec: 0
+      sec: 5
+    velocity:
+    - -5.6164793004126815e-14
+    - -3.389343384944954e-14
+    - -2.205864800579804e-15
+    - -2.963055927734156e-15
+    - 2.0851023815535163e-14
+    - 5.443414036849451e-15
+  traj2:
+  - gripper_action: none
+    joint_names:
+    - shoulder_lift_joint
+    - elbow_joint
+    - wrist_1_joint
+    - wrist_2_joint
+    - wrist_3_joint
+    - shoulder_pan_joint
+    movement_type: moveL
+    num_steps: 2
+    position:
+    - -1.6381261984454554
+    - 1.259526014328003
+    - -1.1847828070269983
+    - -1.5931561628924769
+    - -2.3051028887378138
+    - 0.9220529794692993
+    time_step: 2.0
+    timestamp:
+      nanosec: 0
+      sec: 5
+    velocity:
+    - -5.6164793004126815e-14
+    - -3.389343384944954e-14
+    - -2.205864800579804e-15
+    - -2.963055927734156e-15
+    - 2.0851023815535163e-14
+    - 5.443414036849451e-15
+  traj3:
+  - gripper_action: none
+    joint_names:
+    - shoulder_lift_joint
+    - elbow_joint
+    - wrist_1_joint
+    - wrist_2_joint
+    - wrist_3_joint
+    - shoulder_pan_joint
+    movement_type: moveJ
+    position:
+    - -1.6381261984454554
+    - 1.259526014328003
+    - -1.1847828070269983
+    - -1.5931561628924769
+    - -2.3051028887378138
+    - 0.9220529794692993
+    timestamp:
+      nanosec: 0
+      sec: 5
+    velocity:
+    - -5.6164793004126815e-14
+    - -3.389343384944954e-14
+    - -2.205864800579804e-15
+    - -2.963055927734156e-15
+    - 2.0851023815535163e-14
+    - 5.443414036849451e-15
+start_point_pallet_4:
+  traj0:
+  - gripper_action: none
+    joint_names:
+    - shoulder_lift_joint
+    - elbow_joint
+    - wrist_1_joint
+    - wrist_2_joint
+    - wrist_3_joint
+    - shoulder_pan_joint
+    position:
+    - -0.9424040953265589
+    - -0.047068421040670216
+    - -0.6044614950763147
+    - -1.576430622731344
+    - -1.8264678160296839
+    - 0.4934995472431183
+    timestamp:
+      nanosec: 0
+      sec: 3
+    velocity:
+    - 0.0
+    - -0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  traj1:
+  - gripper_action: none
+    joint_names:
+    - shoulder_lift_joint
+    - elbow_joint
+    - wrist_1_joint
+    - wrist_2_joint
+    - wrist_3_joint
+    - shoulder_pan_joint
+    movement_type: moveL
+    position:
+    - -1.6381261984454554
+    - 1.259526014328003
+    - -1.1847828070269983
+    - -1.5931561628924769
+    - -2.3051028887378138
+    - 0.9220529794692993
+    timestamp:
+      nanosec: 0
+      sec: 5
+    velocity:
+    - -5.6164793004126815e-14
+    - -3.389343384944954e-14
+    - -2.205864800579804e-15
+    - -2.963055927734156e-15
+    - 2.0851023815535163e-14
+    - 5.443414036849451e-15
+start_point_pallet_6:
+  traj0:
+  - gripper_action: none
+    joint_names:
+    - shoulder_lift_joint
+    - elbow_joint
+    - wrist_1_joint
+    - wrist_2_joint
+    - wrist_3_joint
+    - shoulder_pan_joint
+    position:
+    - -1.5683205763446253
+    - 0.9111647605895996
+    - -0.8948629538165491
+    - -1.5671456495868128
+    - -1.8263843695269983
+    - 0.7557154893875122
+    timestamp:
+      nanosec: 0
+      sec: 3
+    velocity:
+    - 0.0
+    - -0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+tapas_point:
+  traj0:
+  - gripper_action: open
+    joint_names:
+    - shoulder_lift_joint
+    - elbow_joint
+    - wrist_1_joint
+    - wrist_2_joint
+    - wrist_3_joint
+    - shoulder_pan_joint
+    movement_type: moveJ
+    position:
+    - -1.4761031309710901
+    - 0.527285099029541
+    - -0.5985038916217249
+    - -1.5666664282428187
+    - -1.900161091481344
+    - -1.1507590452777308
+    timestamp:
+      nanosec: 0
+      sec: 2
+    velocity:
+    - 0.0
+    - -0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  traj1:
+  - gripper_action: close
+    joint_names:
+    - shoulder_lift_joint
+    - elbow_joint
+    - wrist_1_joint
+    - wrist_2_joint
+    - wrist_3_joint
+    - shoulder_pan_joint
+    movement_type: moveL
+    num_steps: 2
+    position:
+    - -1.70803147951235
+    - 2.2683520317077637
+    - -2.107640091572897
+    - -1.5667145887957972
+    - -1.9001734892474573
+    - -1.1507590452777308
+    time_step: 0.8
+    timestamp:
+      nanosec: 0
+      sec: 2
     velocity:
     - 0.0
     - -0.0
@@ -113,16 +1095,17 @@ empaque_6:
     - wrist_2_joint
     - wrist_3_joint
     - shoulder_pan_joint
+    movement_type: moveL
     position:
-    - -1.5700309912311
-    - -8.374849428349762e-05
-    - -1.5700047651873987
-    - -2.366701234990387e-05
-    - 4.793690095539205e-05
-    - -2.366701234990387e-05
+    - -1.689812962208883
+    - 1.0918822288513184
+    - -0.9492753187762659
+    - -1.5666783491717737
+    - -1.9001734892474573
+    - -1.1507466475116175
     timestamp:
       nanosec: 0
-      sec: 5
+      sec: 2
     velocity:
     - 0.0
     - -0.0
